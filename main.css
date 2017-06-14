@@ -1,0 +1,37 @@
+body {
+    background-image: url(bg01.png);
+    background-repeat: repeat;
+}
+
+.col-md-7 {}
+
+.col-md-2 {
+    height: 35%;
+    width: 45%;
+    margin: 5% 0 0 4%;
+    display: inline-block;
+}
+
+.col-md-2 img {
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 2%;
+}
+
+.col-md-2 img:hover {
+    transition: 25s ease-in-out;
+    -moz-transition: 25s ease-in-out;
+}
+
+.col-md-5 {
+    margin-bottom: 40%;
+}
+
+h1 {
+    margin: 10% 0 20% 0;
+    margin-left: 20%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    text-decoration: chartreuse;
+    text-shadow: 4px, 4px;
+}
