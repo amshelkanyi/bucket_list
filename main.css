@@ -12,11 +12,12 @@ body {
     display: inline-block;
 }
 
-.col-md-2 img {
+
+/*.col-md-2 img {
     max-height: 100%;
     max-width: 100%;
     border-radius: 2%;
-}
+}*/
 
 .col-md-2 img:hover {
     transition: 25s ease-in-out;
@@ -34,4 +35,16 @@ h1 {
     font-style: oblique;
     text-decoration: chartreuse;
     text-shadow: 4px, 4px;
+}
+
+#picture {
+    height: 35%;
+    width: 45%;
+    margin: 10% 0 0 25%;
+}
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 2%;
 }
